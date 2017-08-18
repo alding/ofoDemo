@@ -75,7 +75,7 @@ class ViewController: UIViewController,MAMapViewDelegate,AMapSearchDelegate {
     
     // MARK: - 大头针动画
     func pinAnimation() {
-        //坠落效果，y轴加位移
+        //坠落效果，y轴加位移.
         let endFrame = pinView.frame
         
         pinView.frame = endFrame.offsetBy(dx: 0, dy: -15)
